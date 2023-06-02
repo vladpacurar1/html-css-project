@@ -39,7 +39,6 @@ html {
   background-color: var(--color-light-yellow);
   width: 100%;
   z-index: 5;
-  margin-left: 84px;
 }
 
 .navigation-items {
@@ -111,9 +110,6 @@ li {
 .contact-us-content {
   display: flex;
   gap: 34px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .contact-us-information {
@@ -162,18 +158,6 @@ button {
   margin-top: 46px;
 }
 
-.section-one {
-  margin-left: 149px;
-}
-
-.section-two {
-  margin-left: 149px;
-}
-
-.section-three {
-  margin-left: 149px;
-}
-
 .slashes {
   position: absolute;
   top: 273px;
@@ -216,5 +200,24 @@ button {
 @media (max-width: 576px) {
   .landing-section {
     flex-direction: column;
+  }
+  .navigation {
+    margin-left: 84px;
+  }
+  .section-one {
+    margin-left: 149px;
+  }
+
+  .section-two {
+    margin-left: 149px;
+  }
+
+  .section-three {
+    margin-left: 149px;
+  }
+  .contact-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

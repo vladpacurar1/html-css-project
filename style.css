@@ -39,6 +39,7 @@ html {
   background-color: var(--color-light-yellow);
   width: 100%;
   z-index: 5;
+  margin-left: 84px;
 }
 
 .navigation-items {
@@ -110,6 +111,9 @@ li {
 .contact-us-content {
   display: flex;
   gap: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-us-information {
@@ -154,6 +158,20 @@ button {
 .profile-picture-wrapper {
   position: relative;
   width: 464px;
+  margin-left: 147px;
+  margin-top: 46px;
+}
+
+.section-one {
+  margin-left: 149px;
+}
+
+.section-two {
+  margin-left: 149px;
+}
+
+.section-three {
+  margin-left: 149px;
 }
 
 .slashes {
